@@ -12,7 +12,10 @@ public class MoneyTest {
     }
 
     @Test
-    public void testDifferentClassEquality(){
-        assertTrue(new Money(10, "CHF").equals(new Franc(10, "CHF")));
+    public void testMultiplication() {
+
+        Money five = Money.franc(5);
+        assertEquals( Money.franc(10), five.times(2));
+        assertEquals( Money.franc(15), five.times(3));
     }
 }
