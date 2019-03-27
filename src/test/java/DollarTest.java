@@ -1,4 +1,3 @@
-
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -6,7 +5,7 @@ import static org.junit.Assert.*;
 public class DollarTest {
 
     @Test
-    public void testMultiopication() {
+    public void testMultiplication() {
 
         Dollar five = new Dollar(5);
         assertEquals( new Dollar(10), five.times(2));
