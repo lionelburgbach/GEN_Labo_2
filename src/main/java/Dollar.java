@@ -1,4 +1,4 @@
-public class Dollar {
+public class Dollar{
 
     private int amount;
 
